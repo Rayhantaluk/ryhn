@@ -27,7 +27,7 @@ nav ul a{
 nav ul li {
     list-style: none;
 }
-.btn-primary{
+.btn-primary, .btn-secondary{
     background: #fd6e0a;
     font-size: bold;
     color: white;
@@ -51,4 +51,23 @@ nav ul li {
     background-repeat: no-repeat;
    width: 1440px;
    height: 749px;
+}
+/* section-part */
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 40px;
+}
+.start{
+    max-width: 50%;
+}
+.start h2{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.img{
+    max-width: 100%;
+    border-radius: 20px;
 }
