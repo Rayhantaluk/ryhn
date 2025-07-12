@@ -36,7 +36,8 @@ nav ul li {
 
 }
 .logo{
-    text: 34;
+    font-size: 32px;
+    font-weight: bold;
 }
 .focused{
     background: #fd6e0a;
@@ -70,4 +71,39 @@ nav ul li {
 .img{
     max-width: 100%;
     border-radius: 20px;
+}
+.experiment{
+    background: #fd6e0a;
+    padding: 60px 20px;
+    text-align: center;
+}
+.statistic{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.first h3{
+    font-size: 80px;
+    color: white;
+}
+.footer-logo{
+    font-weight: bold;
+    font-size: 32px;
+    color: #fd6e0a;
+}
+.footer{
+    text-align: center;
+    background: #fff;
+    color: #6b7280;
+    padding: 40px ;
+}
+footer nav{
+    margin-top: 20px;
+}
+footer nav a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #6b7280;
+    margin: auto;
+   
 }
