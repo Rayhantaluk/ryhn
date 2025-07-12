@@ -1,0 +1,9 @@
+.header{
+    background-image: url(../styles/images/Hero-bg.png);
+    background-repeat: no-repeat;
+
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+}
