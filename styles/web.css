@@ -1,9 +1,54 @@
-.header{
-    background-image: url(../styles/images/Hero-bg.png);
-    background-repeat: no-repeat;
+/* header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  */
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0px 50px;
+}
+nav ul{
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+}
+nav ul li {
+    list-style: none;
+}
+.btn-primary{
+    background: #fd6e0a;
+    font-size: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
 
 }
 .logo{
-    font-weight: bold;
-    font-size: 24px;
+    text: 34;
+}
+.focused{
+    background: #fd6e0a;
+    font-size: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+                                                               
+}
+.hearder {
+    background-image: url(../styles/images/Hero-bg.png);
+    background-repeat: no-repeat;
+   width: 1440px;
+   height: 749px;
 }
