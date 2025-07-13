@@ -113,8 +113,12 @@ nav ul li {
 }
 .experiment{
     background: #fd6e0a;
-    padding: 60px 20px;
+    padding:20px;
     text-align: center;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 0 auto;
 }
 .statistic{
     display: flex;
