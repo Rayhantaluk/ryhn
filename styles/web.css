@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 20px 50px;
+    margin-top: 100px;
     flex-direction: column;
 }
 nav{
@@ -16,10 +18,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     
-    padding: 0px 50px;
+    padding: 20px 50px;
 }
 nav ul{
     display: flex;
+}
+.logo{
+    font-weight: bold;
 }
 nav ul a{
     text-decoration: none;
@@ -27,12 +32,13 @@ nav ul a{
 nav ul li {
     list-style: none;
 }
-.btn-primary .btn-secondary{
+.btn-primary{
     background: #fd6e0a;
     font-size: bold;
     color: white;
-    padding: 12px 36px;
+    padding: 10px 20px;
     border-radius: 5px sold;
+    
 
 }
 .logo{
@@ -41,32 +47,49 @@ nav ul li {
 }
 .focused{
     background: #fd6e0a;
-    font-size: bold;
+    justify-content: space-between;
     color: white;
     padding: 12px 36px;
     border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
                                                                
 }
 .hearder {
     background-image: url(../styles/images/Hero-bg.png);
-    background-repeat: no-repeat;
-   width: 1440px;
-   height: 749px;
+    background-repeat: repeat;
+    
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    text-align: center;
+
 }
 /* section-part */
 .one{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 60px 10%;
+    padding: 40px;
     gap: 40px;
+    border-radius: 12px;
 }
 .start{
-    max-width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.btn-secondary{
+    background-color: #fd6e0a;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 12px 20px;
 }
 .start h2{
-    font-size: 2em;
-    margin-bottom: 0.5em;
+    font-size: 24px;
+    margin-bottom:20px;
+    font-weight: 700;
 }
 .img{
     max-width: 100%;
@@ -88,7 +111,7 @@ nav ul li {
 }
 .footer-logo{
     font-weight: bold;
-    font-size: 32px;
+    font-size: 48px;
     color: #fd6e0a;
 }
 .footer{
@@ -96,6 +119,12 @@ nav ul li {
     background: #fff;
     color: #6b7280;
     padding: 40px ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
 }
 footer nav{
     margin-top: 20px;
@@ -104,7 +133,8 @@ footer nav a {
     text-decoration: none;
     font-size: 0.9em;
     color: #6b7280;
-    margin: auto;
+    margin:0 15px;
+    font-size: 14px;
    
 }
 .cus-response{
